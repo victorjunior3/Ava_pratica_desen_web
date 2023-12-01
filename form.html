@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    
+    <form action="post" class="form-group" >
+        <div class="container">
+
+            <h1>Formulário de cadastro</h1>
+            <div class="mx-auto" style="width: 200px;">
+            <label for="nome">Nome</label>
+            <input class="form-control-lg" type="text" id="nome">
+            <br>
+            <label for="email">E-mail</label>
+            <input class="form-control-lg"type="email" id="email">
+            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            <br>
+            <label for="datanas">Data de nascimento</label>
+            <input class="form-control-lg" type="date" id="datanas">
+            <br>
+            <label for="cidade">Cidade</label>
+            <input class="form-control-lg"type="text" id="cidade">
+            <br>
+            <label for="estado">Estado</label>
+            <input class="form-control-lg" type="text" id="Estado">
+            </div>
+            <br>
+            <a class="form-control-lg" href='home.html' target="_blank">Home</a>
+            <br>
+            <button class="form-control-lg" type="submit" >Salvar</button>
+       
+        
+       
+        </div>
+
+    </form>
+      
+</body>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(212, 211, 211);
+        color: black;
+    }
+   h1 {
+    text-align: center;
+   }
+   .container {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(167, 179, 175);
+        align-items: center;
+        height: 100vh;
+   }
+</style>
+</html>
